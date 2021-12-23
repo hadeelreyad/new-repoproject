@@ -130,6 +130,7 @@
             android:textSize="25dp"
             android:fontFamily="sans-serif-black"
             android:textColor="@color/white"
+            android:onClick="go"
             android:backgroundTint="@color/blue"
             android:layout_marginTop="520dp"
             android:layout_marginLeft="60dp"

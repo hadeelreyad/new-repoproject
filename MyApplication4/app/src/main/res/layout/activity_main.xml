@@ -115,7 +115,44 @@
             android:textColor="@color/blue"
             android:textSize="25dp"
             android:textStyle="bold" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="280dp"
+            android:backgroundTint="@color/white"
+            android:backgroundTintMode="add"
+            android:fontFamily="sans-serif-black"
+            android:text="-"
+            android:textAlignment="gravity"
+            android:textColor="@color/blue"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtSub"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="280dp"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="60dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:text="+"
+            android:textColor="@color/blue"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -134,8 +171,8 @@
             android:textSize="25dp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button2"
+        <EditText
+            android:id="@+id/ed2"
             android:layout_width="190dp"
             android:layout_height="45dp"
             android:layout_marginLeft="67dp"
@@ -161,8 +198,8 @@
             android:textColor="@color/blue"
             android:textSize="25dp" />
 
-        <Button
-            android:id="@+id/button2"
+        <EditText
+            android:id="@+id/ed3"
             android:layout_width="190dp"
             android:layout_height="45dp"
             android:layout_marginLeft="60dp"
